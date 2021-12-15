@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+				font-family: 'Poppins', sans-serif;
+}
+.crd{visibility:hidden}
+div.crd h1 ,nav,.navbar-brand img,.border-plain{
+ border-bottom:0.5px solid black;
+}
+.bs-bt{
+ box-shadow:5px 5px 15px 15px #00000030;
+}
+div.crd{
+ max-width:650px;
+ margin:auto;
+ margin-top:0;
+}
+div.crd h1{
+ padding:5px;
+}
+div.crd p,div.crd h2,div.crd h3{ 
+ padding:8px;
+ margin:0;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+html, body { height: 100%; margin: 0; } .content { padding: 0px; min-height: 100%; margin: 0 auto -50px; } .footer, .push { height: 50px; background-color:black;color:white;vertical-align:middle; display: inline-flex; width:100vw;} 
+ul{
+margin-top:0;
+padding-top:0;
+}
+.banner img{
+ width:100vw;
+}
+.banner{
+ border-bottom:10px solid #151525;
+ box-shadow:5px 5px 7px 7px #efefef;
+}
+div.alg-mdce{
+				margin:auto;
+				padding:8px;
+				max-width:600px;
+				font-family: 'Poppins', sans-serif !important;
+}
+
+/* New edit check */
+@keyframes page-load {
+    from {
+        background-color: #ffc422;
+    }
+    to {
+        background-color: #c0392b;
+    }
+}
+.page-loading::before {
+    content:" ";
+    display:block;
+    position:fixed;
+    z-index:10;
+    height:2px;
+    width:100%;
+    top:0;
+    left:0;
+    background-color:#06D;
+    animation: page-load infinite ease-out 2s;
+    box-shadow:0 2px 2px rgba(0,0,0,.2);
+}
+
+.pagecss-profile{
+ width:100vw;
+ height:auto;
+ align-items: center;
+ display:flex;
+ background: rgb(0,134,104);
+background: linear-gradient(90deg, #B2FFF1 0%, #92FE9D 100%);
+ color:#1f1f1f;
+}
+img.big-profile{
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ border:3px solid #FFDA00;
+ 
+ filter: drop-shadow(0px 1px 1px #141);
+}
+.pagecss-center{
+ margin:auto;
+ margin-top:10px;
+ text-align: center;
+ max-width:300px;
+ height: 90vh;
+ font-weight: 800
+}
+.pagecss-center h2{font-weight: 1000}
+
+small{
+ color:rgba(0,0,0,.4);
+}
+.skills a{
+  text-decoration: none !important;
+}
+
+h1{
+  color:#1f1f1f;
+  background-color: #FFDA00;
+  text-align: center;
+  font-weight: 800;
+  width: 80%;
+  margin:4% 0 4% 10%;
+  border-radius: 12px
+}
+footer{
+  position:relative;
+  witdh:100vw;height:10vh;
+  background-color:#111;color:#fff;
+  text-align:center;
+  padding:20px
+}
